@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autism Game - Empowering Kids</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #fff;
+    }
+    /* Navbar */
+    .navbar {
+      background: #111;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+    .navbar .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .navbar .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    .navbar .nav-links a:hover {
+      color: #4CAF50;
+    }
+
+    /* Header */
+    header {
+      background: #000;
+      color: #fff;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .impact, .community, .faq {
+      background: #111;
+      margin: 20px 0;
+      padding: 40px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+    }
+    .impact h2, .community h2, .faq h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .impact p, .community p, .faq p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    /* Carousel */
+    .carousel{
+      margin: 40px 0;
+      
+    }
+    .carousel img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Video Animation */
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+      height: 0;
+      overflow: hidden;
+      margin: 40px 0;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 10px;
+    }
+
+    /* FAQ Section */
+    .faq {
+      background: #222;
+    }
+
+    /* Footer */
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+    .social-links a {
+      margin: 0 10px;
+      color: #4CAF50;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .social-links a:hover {
+      color: #45a049;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    #we{
+        font-size: 20px;
+    }
+    .logo{
+        padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><img src="./autism 7.webp" width="100px" height="100px">
+    <h1 id="we">Autism Allies</h1></div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#impact">Impact</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="carousel">
+    <div><img src="./pexels-nicola-barts-7943969.jpg" height="500px" alt="Autism Game Impact 1"></div>
+    <div><img src="./pexels-nicola-barts-7943982.jpg" height=500px alt="Autism Game Impact 2"></div>
+    <div><img src="./pexels-pavel-danilyuk-8422207.jpg" height=500px alt="Autism Game Impact 3"></div>
+  </div>
+</div>
+
+  <!-- Header -->
+  <header id="home" class="fade-in">
+    <h1>Welcome to Our Autism Game</h1>
+    <p>Autism Allies is a highly coustamizable and interactive game which is developed to make the 
+individuals with autism ”society ready” and make their life easy. This game is first person simulation 
+game which deals with the day to day activities and it helps the players to recognize in game materials 
+and relate the situations to real life. Autism Alllies is mainly desgined for kids who are developing 
+autism in early stages. People above 4 yrs can easily manage to play this game and there is no age limit 
+after this. This game deals with one word commands and colourful interfaces, which can be custmized 
+acoording to player’s comfort.</p>
+  </header>
+
+  <!-- Impact Section -->
+  <section id="impact" class="impact fade-in">
+    <div class="container">
+      <h2>How Our Game Impacts Autism Kids</h2>
+      <p>The main game is based on the simulation of daily activities like brushing, wearing clothes and shopping 
+        and other life essentials. By playing these games as a practice player can relate the in game scenarios 
+        with real life. Usually the individuals diagnoized with autism usually need repeated commands for them 
+        to do thir work properly. By playing this game regularly there is a high chance of the indiviual to relate 
+        it to rela life and implement it. These tasks help in buliding their confidence and helps them to live 
+        independently..</p>
+      <!-- Carousel -->
+      <div class="carousel">
+        <div><img src="./autism 2.jpg" alt="Autism Game Impact 1"></div>
+        <div><img src="./autism 3.jpg" alt="Autism Game Impact 2"></div>
+        <div><img src="./autism 4.webp" alt="Autism Game Impact 3"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" class="community fade-in">
+    <div class="container">
+      <h2>Our Community Partner</h2>
+      <p>We have consulted many disability schools, but our biggest support came from NIMH doctors and Dr. Anil Kundra, who allowed us to visit his ashram in Shamirpet. Visiting the ashram changed our vision on autism and its treatment. Dr. Anil Kundra mentioned, “Kids here play with tabs for an hour in the evening. They don’t ask for any support while playing games, and they don’t get triggered. Your game can help kids improve their social skills if developed on point as your idea is.”</p>
+      <!-- Video Animation -->
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/example-video-id" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section id="faq" class="faq fade-in">
+    <div class="container">
+      <h2>Why Our Game?</h2>
+      <p>How can someone with sensory issues play a game? Is developing a game for autistic individuals a great idea? The answer is “YES.” According to research, individuals with autism can play games and use mobiles and tablets effectively. With a comfortable environment, discomfort can be minimized. Their strong visual and spatial skills make games an effective tool for learning and entertainment.</p>
+      <p>Dr. Anil Kundra observed that kids and adults diagnosed with autism at the Autism Ashram in Shamirpet play games effectively and get easily entertained. Developing a game is definitely a great idea for individuals with autism.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="fade-in">
+    <div class="container">
+      <h3>Follow Us</h3>
+      <div class="social-links">
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <p>Contact us at: <a href="mailto:info@autismgame.com">info@autismgame.com</a></p>
+      <p>Contact Number: +91 6300973014</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.carousel').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 2000,
+      });
+    });
+  </script>
+</body>
+</html>
